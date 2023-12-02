@@ -1,6 +1,5 @@
 const fs = require('fs');
 let list = fs.readFileSync('./input.txt', 'utf8')
-const numWords = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
 list = list.replaceAll("twone", "21")
 list = list.replaceAll("sevenine", "79")
 list = list.replaceAll("oneight", "18")
