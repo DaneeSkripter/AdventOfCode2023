@@ -2,6 +2,7 @@ const fs = require("fs")
 const input = fs.readFileSync("./input.txt", "utf8").split("\n")
 
 let IDSum = 0;
+let powerSum = 0;
 input.forEach((game) => {
     const gameID = parseInt(game.split(":")[0].split("Game ")[1])
     game = game.split("; ")
@@ -28,8 +29,12 @@ input.forEach((game) => {
         }
     }
     })
+    //console.log(redCount, blueCount, greenCount)
+    const powerOfSet = redCount * blueCount * greenCount
+    powerSum += powerOfSet
     if (redCount <= 12 && blueCount <= 14 && greenCount <= 13) {
         IDSum += gameID
     }
 })
 console.log(IDSum)
+console.log(powerSum)

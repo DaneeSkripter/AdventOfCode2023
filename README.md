@@ -6,7 +6,7 @@ Advent of Code 2023
 | Day | First Puzzle | Second Puzzle |
 | --- | ------------ | ------------- |
 | 1st | ✅           | ✅           |
-| 2nd | ✅           | ❌           |
+| 2nd | ✅           | ✅           |
 | 3rd | ❌           | ❌           |
 | 4th | ❌           | ❌           |
 | 5th | ❌           | ❌           |
